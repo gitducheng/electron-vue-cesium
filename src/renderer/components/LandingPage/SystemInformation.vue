@@ -4,7 +4,6 @@
     <div class="items">
       <div class="item">
         <div class="name">to baiduMap:</div>
-        <div class="value">baiduMap</div>
         <router-link to='/mapControll'>map</router-link>
       </div>
       <div class="item">

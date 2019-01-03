@@ -1,6 +1,7 @@
 <template>
   <div id="wrapper">
     <img id="logo" src="~@/assets/logo.png" alt="electron-vue">
+    <router-link to='/'>home</router-link>
     <baidu-map class="map" :center="center" :zoom="zoom" @ready="handler">
       <input type="text" v-model="content">
       <button @click="search">搜索</button>
