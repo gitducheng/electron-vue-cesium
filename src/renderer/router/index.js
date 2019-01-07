@@ -18,6 +18,10 @@ export default new Router({
     {
       path: '/cesium',
       component: require('@/components/cesium').default
+    },
+    {
+      path: '/ktMap',
+      component: require('@/components/ktMap').default
     }
   ]
 })

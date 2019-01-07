@@ -4,6 +4,7 @@
     <div class="items">
       <div class="item">
         <div class="name">to baiduMap:</div>
+        <div class="value">baiduMap</div>
         <router-link to='/mapControll'>map</router-link>
       </div>
       <div class="item">
@@ -11,12 +12,12 @@
         <router-link to='/cesium'>cesium</router-link>
       </div>
       <div class="item">
-        <div class="name">Vue.js:</div>
-        <div class="value">{{ vue }}</div>
+        <div class="name">to ktMap</div>
+        <router-link to='/ktMap'>ktMap</router-link>
       </div>
       <div class="item">
-        <div class="name">Electron:</div>
-        <div class="value">{{ electron }}</div>
+        <div class="name">to VR:</div>
+        <div class="value"><a href="https://720yun.com/t/1d62cwauqbf?scene_id=32407">校园VR全景</a></div>
       </div>
       <div class="item">
         <div class="name">Node:</div>
