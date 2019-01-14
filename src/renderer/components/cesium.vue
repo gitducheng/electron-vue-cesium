@@ -27,7 +27,24 @@ export default {
         //设置静态资源目录
         buildModuleUrl.setBaseUrl('../static/Cesium/')
         //创建viewer实例
-        this.viewer = new Cesium.Viewer('cesiumContainer');
+        this.viewer = new Cesium.Viewer('cesiumContainer', {
+            animation: false,  //是否显示动画控件
+            baseLayerPicker: false, //是否显示图层选择控件
+            geocoder: true, //是否显示地名查找控件
+            timeline: false, //是否显示时间线控件
+            sceneModePicker: true, //是否显示投影方式控件
+            navigationHelpButton: false, //是否显示帮助信息控件
+            infoBox: true,  //是否显示点击要素之后显示的信息
+            imageryProvider: new Cesium.WebMapTileServiceImageryProvider({
+                url:'https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer',
+                layer: "tdtBasicLayer",
+                style: "default",
+                format: "image/jpeg",
+                tileMatrixSetID: "GoogleMapsCompatible",
+                show: false
+            })
+        });
+
         const handler = new Cesium.ScreenSpaceEventHandler(this.viewer.scene.canvas);
         handler.setInputAction( click => {
             this.viewer.entities.add({
