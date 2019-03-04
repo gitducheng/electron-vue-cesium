@@ -1,5 +1,6 @@
 <template>
     <div id="ktMap">
+        <router-link to='/'>home</router-link>
         <img src="../../../static/imgs/big.jpg" style="margin-left:10px;margin-top:15px;" alt="">
 
         <svg class="svgStyle" width="1000" height="700" xmlns="http://www.w3.org/2000/svg">
@@ -39,8 +40,8 @@
             <div id="content" style="position: fixed;z-index: 9999;width: 770px;padding: 15px;left: 50%;top: 50%;margin-left: -375px;right: auto;margin-top: -280px;background-color: #fff;">
                 <img style="width:100%;" src='../../../static/imgs/small.jpg'>
                 <div id="btn" @click="closeMsg" class="box-close" style="position:absolute;display:inline-block;right:-33px;top: -3px;width:18px; height: 18px;line-height: 18px;font-size: 30px;color:#000">X</div>
-                <div style="width:770px;position:absolute;height:60px;line-height:60px;font-size:20px;color:#ffffff;background-color:black;opacity:0.5;bottom:15px;">
-                    <span style="margin-left:20px;">'+time+'</span>
+                <div style="width:770px;margin-left:-15px;position:absolute;height:60px;line-height:60px;font-size:20px;color:#ffffff;background-color:black;opacity:0.5;bottom:15px;">
+                    <span style="margin-left:20px;">time</span>
                 </div>
             </div>
         </div>
@@ -81,6 +82,9 @@ export default {
 }
 .pathStyle:hover{
     stroke: rgba(0,0,0,1);
+    cursor: pointer;
+}
+.box-close{
     cursor: pointer;
 }
 </style>

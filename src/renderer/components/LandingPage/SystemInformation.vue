@@ -17,7 +17,7 @@
       </div>
       <div class="item">
         <div class="name">to VR:</div>
-        <div class="value"><a href="https://720yun.com/t/1d62cwauqbf?scene_id=32407">校园VR全景</a></div>
+        <div class="value"><a href="https://720yun.com/t/1d62cwauqbf?scene_id=32407" target="_blank">校园VR全景</a></div>
       </div>
       <div class="item">
         <div class="name">Node:</div>
