@@ -4,24 +4,22 @@
     <main>
       <div class="left-side">
         <span class="title">
-          Welcome to your new project!
+          Welcome to my new project!
         </span>
         <system-information></system-information>
       </div>
 
       <div class="right-side">
         <div class="doc">
-          <div class="title">Getting Started</div>
+          <div class="title">学校简介</div>
           <p>
-            electron-vue comes packed with detailed documentation that covers everything from
-            internal configurations, using the project structure, building your application,
-            and so much more.
+            中南民族大学（South-Central Minzu University），简称中南民大（SCUN），位于湖北省武汉市，直属于中国国家民族事务委员会的囊括除军事学以外所有12大学科门类的以民族学、文学等人文学科见长的综合性大学，为中国“少数民族骨干计划”资格高校、全国深化创新创业教育改革示范高校，拥有博士学位授予权。
           </p>
-          <button @click="close">Read the Docs</button><br><br>
+          <button @click="close">阅读全文</button><br><br>
         </div>
         <div class="doc">
-          <div class="title alt">Other Documentation</div>
-          <button class="alt" @click="open('https://electron.atom.io/docs/')">Electron</button>
+          <div class="title alt">友情链接</div>
+          <button class="alt" @click="open('http://www.scuec.edu.cn/')">中南民族大学官网</button>
           <button class="alt" @click="open('https://vuejs.org/v2/guide/')">Vue.js</button>
         </div>
       </div>

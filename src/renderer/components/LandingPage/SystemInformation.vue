@@ -3,29 +3,20 @@
     <div class="title">Information</div>
     <div class="items">
       <div class="item">
-        <div class="name">to baiduMap:</div>
-        <div class="value">baiduMap</div>
+        <div class="name">百度地图:</div>
         <router-link to='/mapControll'>map</router-link>
       </div>
       <div class="item">
-        <div class="name">Route Name:</div>
+        <div class="name">Cesium3D地图:</div>
         <router-link to='/cesium'>cesium</router-link>
       </div>
       <div class="item">
-        <div class="name">to ktMap</div>
+        <div class="name">卡通地图:</div>
         <router-link to='/ktMap'>ktMap</router-link>
       </div>
       <div class="item">
-        <div class="name">to VR:</div>
-        <div class="value"><a href="https://720yun.com/t/1d62cwauqbf?scene_id=32407" target="_blank">校园VR全景</a></div>
-      </div>
-      <div class="item">
-        <div class="name">Node:</div>
-        <div class="value">{{ node }}</div>
-      </div>
-      <div class="item">
-        <div class="name">Platform:</div>
-        <div class="value">{{ platform }}</div>
+        <div class="name">VR地图:</div>
+        <div class="value"><a href="https://720yun.com/t/1d62cwauqbf?scene_id=32407">校园VR全景</a></div>
       </div>
     </div>
   </div>
